@@ -18,8 +18,8 @@ def delete_task(task):
 
 # Step 5: Mark task complete
 def mark_complete(task):
-    if 0 <= index < len(index):
-        tasks[index] = tasks[index] + "✅"
+    if 0 <= task <len(task):
+        tasks[task] = tasks[task] + "✅"
 
 # Step 6: Save/load tasks (extra stretch for today)
 
