@@ -13,7 +13,11 @@ def view_tasks():
         print(f"{i + 1}. {task}")
 
 # Step 4: Delete a task
-
+def delete_task(index):
+    if 0 <= index < len(tasks):
+        tasks.pop(index)
+    else:
+        print("Invalid task number.")
 
 # Step 5: Mark task complete
 
